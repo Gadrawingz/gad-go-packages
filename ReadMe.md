@@ -61,3 +61,15 @@ import(
 )
 
 
+## Last statement
+## Exported names in a Package
+
+> Any variable, type, or function that starts with capital letter is exported 
+> and is visible outside the package. Anything that does not start with a 
+> capital letter is not exported and is available only within the package.
+
+### When you import a package, you can only access the exported names.
+
+**Note:** Go language consists of many code standard library packages which 
+are often used in all programs. But you can build your custom package in go.
+
